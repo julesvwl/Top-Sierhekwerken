@@ -21,7 +21,7 @@ export default function PageHero({
   return (
     <section className="page-hero">
       <div className="page-hero-bg">
-        {slotId && <ImageSlot placeholder={slotPlaceholder || "Drop een sfeerfoto"} />}
+        {slotId && <ImageSlot placeholder={https://1fnz52hdaopkqlfk.public.blob.vercel-storage.com/Foto%20galerij/medium_Hekwerk_Annenborch_E10.jpg} />}
       </div>
       <div className="page-hero-overlay" />
       <div className="page-hero-inner container">
