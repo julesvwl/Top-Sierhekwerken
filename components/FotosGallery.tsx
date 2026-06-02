@@ -7,7 +7,7 @@ import { galleryCategories, galleryItems } from "@/lib/data";
 export default function FotosGallery() {
   const [activeTab, setActiveTab] = useState("all");
   const filtered =
-    activeTab === "all" ? galleryItems : galleryItems.filter((i) => i.category === activeTab);
+    activeTab === "all" ? galleryItems : galleryItems.filter((ih) => i.category === activeTab);
 
   return (
     <section className="section">
@@ -35,7 +35,7 @@ export default function FotosGallery() {
                 }}
               >
                 <div style={{ position: "absolute", inset: 0 }}>
-                  <ImageSlot placeholder={item.label} />
+                  <ImageSlot src={item.src} placeholder={item.label} />
                 </div>
               </div>
               <div className="gallery-item-overlay">
