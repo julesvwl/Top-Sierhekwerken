@@ -7,7 +7,7 @@ import { galleryCategories, galleryItems } from "@/lib/data";
 export default function FotosGallery() {
   const [activeTab, setActiveTab] = useState("all");
   const filtered =
-    activeTab === "all" ? galleryItems : galleryItems.filter((ih) => i.category === activeTab);
+    activeTab === "all" ? galleryItems : galleryItems.filter((i) => i.category === activeTab);
 
   return (
     <section className="section">
