@@ -154,10 +154,11 @@ export type GalleryItem = {
   category: string;
   label: string;
   ratio: string;
+    src?: string;
 };
 
 export const galleryItems: GalleryItem[] = [
-  { id: 1, category: "sierhekwerk", label: "Cranendonck sierhekwerk", ratio: "130%" },
+  { id: 1, category: "sierhekwerk", label: "Cranendonck sierhekwerk", ratio: "130%", src: "/sfeer-sierhekwerk-1.jpg" },
   { id: 2, category: "inrijpoorten", label: "Inrijpoort Annenborch", ratio: "60%" },
   { id: 3, category: "sierhekwerk", label: "Swanenburch hekwerk", ratio: "75%" },
   { id: 4, category: "houtlook", label: "Houtlook hekwerk", ratio: "130%" },
